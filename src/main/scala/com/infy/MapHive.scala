@@ -45,6 +45,7 @@ object MapHive {
         conn.close()
         newItr.toIterator
       })
+      mapped.collect()
 
   }
 
